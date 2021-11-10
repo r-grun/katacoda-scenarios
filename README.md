@@ -2,10 +2,8 @@
 
 [![](http://shields.katacoda.com/katacoda/r-grun/count.svg)](https://www.katacoda.com/r-grun "Get your profile on Katacoda.com")
 
-### Eine Übersicht der Katacodas befindet sich unter https://www.katacoda.com/r-grun.
+Eine Übersicht der Katacodas befindet sich unter https://www.katacoda.com/r-grun.
 
-<br/>
-<br/>
 <br/>
 <br/>
 
@@ -20,7 +18,6 @@ Dieses Repository beinhaltet zwei verschiedene Katacoda Scenarios:
 -   [Katacoda](https://www.katacoda.com/r-grun/scenarios/influxdb_zeitreihen)
 -   [Code](https://github.com/r-grun/katacoda-scenarios/tree/main/InfluxDB_Zeitreihen)
 
-<br/>
 <br/>
 
 ## 2. Verarbeitung von Sensordaten (JSON)
