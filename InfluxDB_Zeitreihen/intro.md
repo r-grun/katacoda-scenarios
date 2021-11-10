@@ -18,9 +18,9 @@ Kenntnisse von klassischen relationalen Datenbanken sind hilfreich.
 
 ## Inhaltsverzeichnis
 
--   Einführung
--   Zeitreihen
--   Zeitreihenbasierte Datenbanken
--   InfluxDB
--   Speichern von Daten in InfluxDB
--   Datenabfrage mit InfluxDB
+1. Einführung
+2. Zeitreihen
+3. Zeitreihenbasierte Datenbanken
+4. InfluxDB
+5. Speichern von Daten in InfluxDB
+6. Datenabfrage mit InfluxDB

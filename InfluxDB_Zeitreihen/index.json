@@ -6,27 +6,27 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Einführung",
+				"title": "1. Einführung",
 				"text": "step1_einfuehrung.md"
 			},
 			{
-				"title": "Zeitreihen",
+				"title": "2. Zeitreihen",
 				"text": "step2_zeitreihen.md"
 			},
 			{
-				"title": "Zeitreihenbasierte Datenbanken",
+				"title": "3. Zeitreihenbasierte Datenbanken",
 				"text": "step3_zeitreihenbasierte_datenbanken copy.md"
 			},
 			{
-				"title": "InfluxDB",
+				"title": "4. InfluxDB",
 				"text": "step4_influxdb.md"
 			},
 			{
-				"title": "Speichern von Zeitreihen",
+				"title": "5. Speichern von Zeitreihen",
 				"text": "step5_speichern.md"
 			},
 			{
-				"title": "Abfragen von Zeitreihen",
+				"title": "6. Abfragen von Zeitreihen",
 				"text": "step6_abfragen.md"
 			}
 		],
