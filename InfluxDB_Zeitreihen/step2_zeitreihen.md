@@ -19,6 +19,8 @@ Ein Beispiel eines Datensatzes mit Zeitstempel ist in Tabelle 1 dargestellt.
 
 _Tabelle 1: Datensatz mit Zeitstempel [1]_
 
+<br>
+
 Für zeitreihenbasierte Daten gibt es unterschiedliche Einsatzzwecke.<br>
 Eine Möglichkeit ist die Zeitreihenanalyse.
 Hier wird analysiert, wie sich die Daten mit der Zeit verändern.
