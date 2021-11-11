@@ -22,12 +22,16 @@
 				"text": "step4_influxdb.md"
 			},
 			{
-				"title": "5. Speichern von Zeitreihen",
-				"text": "step5_speichern.md"
+				"title": "5. InfluxDB - Schlüsselkonzepte",
+				"text": "step5_influxdb_schluesselkonzepte.md"
 			},
 			{
-				"title": "6. Abfragen von Zeitreihen",
-				"text": "step6_abfragen.md"
+				"title": "6. InfluxDB - Zeitreihen speichern",
+				"text": "step6_speichern.md"
+			},
+			{
+				"title": "7. InfluxDB - Zeitreihen abfragen",
+				"text": "step7_abfragen.md"
 			}
 		],
 		"intro": {

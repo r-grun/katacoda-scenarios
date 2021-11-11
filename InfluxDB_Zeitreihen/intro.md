@@ -24,5 +24,6 @@ Kenntnisse von klassischen relationalen Datenbanken sind hilfreich.
 2. Zeitreihen
 3. Zeitreihenbasierte Datenbanken
 4. InfluxDB
-5. Speichern von Daten in InfluxDB
-6. Datenabfrage mit InfluxDB
+5. InfluxDB - Schlüselkonzepte
+6. InfluxDB - Zeitreihen speichern
+7. InfluxDB - Zeitreihen abfragen
