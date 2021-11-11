@@ -1,5 +1,7 @@
 # InfluxDB für Zeitreihen: Erste Schritte
 
+# !!!!!!!TODO: Abstract
+
 ## Beschreibung
 
 Dieses Szenario umfasst einen Einstieg in die Arbeit mit InfluxDB.
