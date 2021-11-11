@@ -1,13 +1,15 @@
 ## Quellen
 
-[1.] Chakraborty, Mainak; Kundan, Ajit Pratap (2021): TICK Stack. In: Mainak Chakraborty und Ajit Pratap Kundan (Hg.): Monitoring Cloud-Native Applications. Lead Agile Operations Confidently Using Open Source Software. New York: Apress (Springer eBook Collection), S. 133–186.
+[1.] A. Buckenhofer, „Vorlesungsskript Data Warehouse: Data Engineering“, Stuttgart, 11. Nov. 2021.
 
-[2.] RFC 3339, 2002-07: Date and Time on the Internet: Timestamps. Online verfügbar unter https://datatracker.ietf.org/doc/html/rfc3339, zuletzt geprüft am 07.11.2021.
+[2.] M. Chakraborty und A. P. Kundan, „TICK Stack“ in Springer eBook Collection, Monitoring Cloud-Native Applications: Lead Agile Operations Confidently Using Open Source Software, M. Chakraborty und A. P. Kundan, Hg., New York: Apress, 2021, S. 133–186, doi: 10.1007/978-1-4842-6888-9_5.
 
-[3.] Naqvi, Syeda Noor Zehra; Yfantidou, Sofia (2017): Time Series Databases and InfluxDB. Universite libre de Bruxelles. Brüssel. Online verfügbar unter https://cs.ulb.ac.be/public/_media/teaching/influxdb_2017.pdf.
+[3.] Date and Time on the Internet: Timestamps, 3339, IETF, Jul. 2002. [Online]. Verfügbar unter: https://datatracker.ietf.org/doc/html/rfc3339
 
-[4.] Nasar, Mohammad; Abu Kausar, Mohammad (2019): Suitability Of InfluxDB Database For IoT Applications. In: IJITEE (10), S. 1850–1857. DOI: 10.35940/ijitee.J9225.0881019.
+[4.] S. N. Z. Naqvi und S. Yfantidou, „Time Series Databases and InfluxDB“, Universite libre de Bruxelles, Brüssel, 2017. [Online]. Verfügbar unter: https://cs.ulb.ac.be/public/_media/teaching/influxdb_2017.pdf.
 
-[5.] senseBox (2021): openSenseMap: Airrohr-1769933. Online verfügbar unter https://opensensemap.org/explore/5a99c5a8bc2d410019cb8261, zuletzt aktualisiert am 03.08.2021, zuletzt geprüft am 10.11.2021.
+[5.] M. Nasar und M. Abu Kausar, „Suitability Of InfluxDB Database For IoT Applications“, IJITEE, Nr. 10, S. 1850–1857, 2019, J92250881019, doi: 10.35940/ijitee.J9225.0881019.
 
-[6.] solid IT gmbh (2021): DB-Engines Ranking von Time Series DBMS. Online verfügbar unter https://db-engines.com/de/ranking/time+series+dbms, zuletzt aktualisiert am 07.11.2021, zuletzt geprüft am 07.11.2021.
+[6.] senseBox, openSenseMap: Airrohr-1769933. [Online]. Verfügbar unter: https://opensensemap.org/explore/5a99c5a8bc2d410019cb8261 (Zugriff am: 10. November 2021).
+
+[7.] solid IT gmbh, DB-Engines Ranking von Time Series DBMS. [Online]. Verfügbar unter: https://db-engines.com/de/ranking/time+series+dbms (Zugriff am: 7. November 2021).
