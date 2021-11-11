@@ -49,7 +49,7 @@
 			"host01": [
 				{
 					"file": "dataset_lineProtocol.zip",
-					"target": "/usr/local/bin/",
+					"target": "",
 					"chmod": "+x"
 				}
 			]
