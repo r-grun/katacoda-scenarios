@@ -48,9 +48,8 @@
 		"assets": {
 			"host01": [
 				{
-					"file": "dataset_lineProtocol.zip",
-					"target": "",
-					"chmod": "+x"
+					"file": "*",
+					"target": "~/"
 				}
 			]
 		}
