@@ -31,4 +31,4 @@ Besonders in der Aktienmarktanalyse wird dies eingesetzt.
 Hier kann der Kurs einer Aktie durch eine andere beeinflusst werden.<br>
 Eine dritte Möglichkeit zum Einsatz von zeitreihenbasierten Daten sind Zeitreihenvorhersagen.
 Aus historischen Werten werden Verhaltensmuster erkannt und damit zukünftige Werte abgeschätzt.
-Dies findet z.B. in der Wettervorhersage oder Erdbebenvorhersage Anwendung.
+Dies findet z.B. in der Wettervorhersage oder Erdbebenvorhersage Anwendung [4].
