@@ -31,7 +31,18 @@
 			},
 			{
 				"title": "7. InfluxDB - Zeitreihen speichern",
-				"text": "step7_speichern.md"
+				"text": "step7_speichern.md",
+				"details": {
+					"assets": {
+						"host01": [
+							{
+								"file": "dataset_lineProtocol.zip",
+								"target": "/usr/local/bin/",
+								"chmod": "+x"
+							}
+						]
+					}
+				}
 			},
 			{
 				"title": "8. InfluxDB - Zeitreihen abfragen",
