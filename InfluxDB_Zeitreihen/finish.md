@@ -10,6 +10,8 @@
 
 [5] InfluxData, InfluxDB Toolkit. [Online]. Verfügbar unter: https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png (Zugriff am: 11. November 2021).
 
+[X] InfluxData, Line protocol: InfluxDB OSS 2.1 Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/influxdb/v2.1/reference/syntax/line-protocol/ (Zugriff am: 12. November 2021).
+
 [6] S. N. Z. Naqvi und S. Yfantidou, „Time Series Databases and InfluxDB“, Universite libre de Bruxelles, Brüssel, 2017. [Online]. Verfügbar unter: https://cs.ulb.ac.be/public/_media/teaching/influxdb_2017.pdf.
 
 [7] M. Nasar und M. Abu Kausar, „Suitability Of InfluxDB Database For IoT Applications“, IJITEE, Nr. 10, S. 1850–1857, 2019, J92250881019, doi: 10.35940/ijitee.J9225.0881019.

@@ -15,6 +15,6 @@ InfluxDB ist Teil eines Toolkits, in Abbildung 1 gezeigt.
 Dabei ist Telegraf eine Möglichkeit, Daten einfach von verschiedenen Quellen zu importieren.
 Der Kern stellt InfluxDB mit der Abfragesprache Flux dar [2, 6].
 
-![alt text](https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png "InfluxDB Toolkit Abbildung")
+![InfluxDB Toolkit](https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png)
 
 _Abbildung 1: InfluxDB Toolkit [5]_

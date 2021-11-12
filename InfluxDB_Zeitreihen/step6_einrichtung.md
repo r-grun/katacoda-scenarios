@@ -48,3 +48,6 @@ Die beiden oben stehenden Befehle müssen jeweils in das Terminal eingefügt und
 
 Es wird anschließend ein neuer API-Token erstellt:
 `influx auth create -o dwh-org -u dwh-user -all-access`{{execute}}
+
+Der neue Token muss nun in die Umgebungsvariable geschrieben werden:
+`export INFLUX_TOKEN=[TOKEN]`{{copy}}

@@ -2,19 +2,16 @@ Nun werden Daten in die Datenbank eingefügt.
 
 `influx write --format=lp -f dataset_lineProtocol.txt`{{execute}}
 
-Sie befinden sich im _Line Protocol_-Format von InfluxDB.
-Der Aufbau eines Dateneintrags ist in Tabelle 5 gezeigt:
+Sie befinden sich im _Line Protocol_-Format von InfluxDB in der Datei `dataset_lineProtocol.txt`.
+Es handelt sich um 17.721 Messwerte.
 
-<pre>
-<code>
-pollution,type=pm10,boxId=5a99c5a8bc2d410019cb8261 value=10.87 1635717524000000000
---------- ---------------------------------------- ----------- -------------------
-    |                       |                           |                |
-Messung              Tag-Menge                     Feld-Menge        Zeitstempel
-</code>
-</pre>
+Der Aufbau eines Dateneintrags ist in Abbildung 2 gezeigt:
 
-_Tabelle 5: Aufbau der Daten im Line Protocol_
+![Aufbau LineProtocol](./assets/aufbau_line_protocol.jpg)
+
+_Abbildung 2: Aufbau der Daten im Line Protocol, nach [X]_
+
+[//]: # "X in Quellen ersetzen"
 
 Wichtig in diesem Datenformat sind die Leerzeichen nach der Tag-Menge und der Feld-Menge.
 
