@@ -14,7 +14,7 @@ _Abbildung 2: Aufbau der Daten im Line Protocol, nach [7]_
 Wichtig in diesem Datenformat sind die Leerzeichen nach der Tag-Menge und der Feld-Menge.
 
 Die Daten stellen Messwerte eines Feinstaubmessgeräts vom 1.10.2021 bis 1.11.2021 in Stuttgart dar.
-Sie stammen von der openSenseMap 9].<br>
+Sie stammen von der openSenseMap [9].<br>
 Der `type` ist dabei der Typ des Feinstaubsensors, der Teilchen kleiner als 10µm Durchmesser erfasst [10].<br>
 Die `boxId` ist die Identifikationsnummer der Messbox.<br>
 Die `value` stellt den gemessenen Wert in µg/m³ dar.<br>

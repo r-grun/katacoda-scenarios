@@ -1,8 +1,8 @@
 {
 	"title": "InfluxDB für Zeitreihen",
 	"description": "Diese Katacoda dient dem Einstieg in die Arbeit mit InfluxDB. Es werden grundlegende Eigenschaften erklärt und die ersten Schritte (Installation, Datenimport, Abfragen) mit InfluxDB beschrieben.",
-	"difficulty": "Beginner",
-	"time": "3 minutes",
+	"difficulty": "Anfänger",
+	"time": "10 Minuten",
 	"details": {
 		"steps": [
 			{

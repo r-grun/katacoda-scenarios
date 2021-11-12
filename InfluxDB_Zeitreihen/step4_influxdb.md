@@ -1,12 +1,11 @@
-Eine Implementierung zeitreihenbasierte Datenbanken ist [InfluxDB](https://www.influxdata.com/products/influxdb/) [5].
+Eine Implementierung zeitreihenbasierter Datenbanken ist [InfluxDB](https://www.influxdata.com/products/influxdb/) [5].
 Das System ist Open-Source und von InfluxData entwickelt [2, 8].
 
 Nach DB-Engines ist es das beliebteste Datenbanksystem in der Kategorie der zeitreihenbasierten Datenbanken [11].
-InfluxDB wurde in Go entwickelt und bietet eine Interaktion per grafischem Benutzerinterface oder ber Kommandozeile.
+InfluxDB wurde in Go entwickelt und bietet eine Interaktion per grafischem Benutzerinterface oder per Kommandozeile.
 Es ist optimiert für die Verwaltung von Zeitreihen [2, 8].
 
-Daten können per Flux abgefragt werden.
-Dies ist eine Sprache ähnlich zu SQL.
+Daten können per Flux oder InfluxQL abgefragt werden.
 Die Daten werden in InfluxDB spaltenweise gespeichert.
 Jeder Dateneintrag benötigt einen Zeitstempel.
 So können Zeitintervalle bis im Bereich der Nanosekunden gespeichert werden [2, 8].

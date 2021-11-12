@@ -1,7 +1,7 @@
-Im Umfeld des Internet der Dinge (IoT) sind neben den vernetzten Geräten vor allem die Daten sehr wichtig.
+Im Umfeld des Internets der Dinge (IoT) sind neben den vernetzten Geräten vor allem die Daten sehr wichtig.
 Sie dienen dem Austausch von Informationen zwischen verschiedenen Geräten.
 Diese Daten sind fast immer mit einem Zeitstempel versehen.
-Häufig handelt es sich dabei um messwerte, die in Abhängigkeit zur Zeit stehen [9].
+Häufig handelt es sich dabei um Messwerte, die in Abhängigkeit zur Zeit stehen [9].
 
 Damit solche Daten verwaltet werden können, bedarf es einer Datenbank.
 Sie muss mit großen Datenmengen zurecht kommen.

@@ -36,9 +36,9 @@ _Tabelle 2: Gegenüberstellung SQL-DB zu InfluxDB [2]_
 -   _Eigenschaften/Attribute:_<br>
     Eigenschaften der Daten werden in Feldern bzw. Tags gespeichert.
     Der Unterschied der beiden Typen liegt darin, dass Tags indiziert werden.
-    Queries basierend auf Tags laufen somit schneller ab.
+    Abfragen basierend auf Tags laufen somit schneller ab.
     Es ist sinnvoll, häufig benötigte Daten in den Tags zu speichern.
-    Im Gegensatz zu den Taags sind die Felder jedoch zwingend für einen Datensatz erforderlich.
+    Im Gegensatz zu den Tags sind die Felder jedoch zwingend für einen Datensatz erforderlich.
     Tags sind optional.
     -   _Feld:_<br>
         Ein Feld besitzt einen _Feld-Schlüssel_ und einen _Feld-Wert_.

@@ -7,7 +7,7 @@ Die Daten mit Zeitstempel können dabei Log-Einträge, IoT-Geräte-Messungen wie
 
 Die Anordnung der Zeitreihen erfolgt in Zeitlinien.
 Wichtig ist die Reihenfolge der Daten, da eine Abhängigkeit zwischen Messwert und Zeitpunkt meist essentiell ist [8].
-Aus diesem Grund besizuen die Daten die Zeitstempel.
+Aus diesem Grund besitzen die Daten Zeitstempel.
 Damit können Änderungen der Daten einfach erkannt werden.
 
 Ein Beispiel eines Datensatzes mit Zeitstempel ist in Tabelle 1 dargestellt.
