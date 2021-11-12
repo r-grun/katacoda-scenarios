@@ -1,6 +1,8 @@
 # InfluxDB für Zeitreihen: Erste Schritte
 
-# !!!!!!!TODO: Abstract
+## Abstract
+
+TODO
 
 ## Beschreibung
 
