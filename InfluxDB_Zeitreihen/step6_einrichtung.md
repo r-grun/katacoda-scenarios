@@ -36,10 +36,12 @@ Die Ausgabe sollte aussehen wie in Tabelle 4:
 _Tabelle 4: Ausgabe der Token-Abfrage_
 
 Nun wird der Text in [ID] und [TOKEN] benötigt.
-Er kann durch Markieren des Textes im Terminal und Verwenden der Tastenkombinationen `STRG+EINFG` bzw. `SHIFT+EINFG` kopiert bzw. eingefügt werden.
+Beide Werte müssen in Umgebungsvariablen `TOKEN_ID` und `INFLUX_TOKEN` gespeichert werden.
+Das Skript `store_tokens.sh` führt diese Aktionen durch.
 
-Für einen einfacheren Umgang mit den folgenden Befehlen werden [ID] und [TOKEN] in Umgebungsvariablen gespeichert.
-Dafür muss `[ID]` bzw. `[TOKEN]` in den Befehlen durch die jeweilige Buchstabenfolge aus dem Terminal ersetzt werden.
+`source store_tokens.sh`{{execute}}
+
+---
 
 `export TOKEN_ID=[ID]`{{copy}}
 `export INFLUX_TOKEN=[TOKEN]`{{copy}}
