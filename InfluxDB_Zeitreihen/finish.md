@@ -6,6 +6,8 @@
 
 [3] Date and Time on the Internet: Timestamps, 3339, IETF, Jul. 2002. [Online]. Verfügbar unter: https://datatracker.ietf.org/doc/html/rfc3339
 
+[X] InfluxData, Flux Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/flux/v0.x/ (Zugriff am: 12. November 2021).
+
 [4] InfluxData, InfluxDB. [Online]. Verfügbar unter: https://www.influxdata.com/products/influxdb/ (Zugriff am: 11. November 2021).
 
 [5] InfluxData, InfluxDB Toolkit. [Online]. Verfügbar unter: https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png (Zugriff am: 11. November 2021).
