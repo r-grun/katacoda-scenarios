@@ -9,13 +9,13 @@ Der Aufbau eines Dateneintrags ist in Abbildung 2 gezeigt:
 
 ![Aufbau LineProtocol](./assets/aufbau_line_protocol.jpg)
 
-_Abbildung 2: Aufbau der Daten im Line Protocol, nach [6]_
+_Abbildung 2: Aufbau der Daten im Line Protocol, nach [7]_
 
 Wichtig in diesem Datenformat sind die Leerzeichen nach der Tag-Menge und der Feld-Menge.
 
 Die Daten stellen Messwerte eines Feinstaubmessgeräts vom 1.10.2021 bis 1.11.2021 in Stuttgart dar.
 Sie stammen von der openSenseMap 9].<br>
-Der `type` ist dabei der Typ des Feinstaubsensors, der Teilchen kleiner als 10µm Durchmesser erfasst [9].<br>
+Der `type` ist dabei der Typ des Feinstaubsensors, der Teilchen kleiner als 10µm Durchmesser erfasst [10].<br>
 Die `boxId` ist die Identifikationsnummer der Messbox.<br>
 Die `value` stellt den gemessenen Wert in µg/m³ dar.<br>
 Die letzte Nummer ist der Zeitstempel im RFC3339 Format [3].

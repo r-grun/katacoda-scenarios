@@ -35,31 +35,8 @@ Die Ausgabe sollte aussehen wie in Tabelle 4:
 
 _Tabelle 4: Ausgabe der Token-Abfrage_
 
-Nun wird der Text in [ID] und [TOKEN] benötigt.
-Beide Werte müssen in Umgebungsvariablen `TOKEN_ID` und `INFLUX_TOKEN` gespeichert werden.
-Das Skript `store_tokens.sh` führt diese Aktionen durch.
+Nun wird der Text in [TOKEN] benötigt.
+Der Wert muss in der Umgebungsvariablen `INFLUX_TOKEN` gespeichert werden.
+Das Skript `store_tokens.sh` führt die Speicherung durch.
 
 `source store_tokens.sh`{{execute}}
-
----
-
-`export TOKEN_ID=[ID]`{{copy}}
-`export INFLUX_TOKEN=[TOKEN]`{{copy}}
-
-Die beiden oben stehenden Befehle müssen jeweils in das Terminal eingefügt und `[ID]` bzw. `[TOKEN]` ersetzt werden.
-
-Es wird anschließend ein neuer API-Token erstellt:
-`influx auth create -o dwh-org -u dwh-user -all-access`{{execute}}
-
-Der neue Token muss nun in die Umgebungsvariable geschrieben werden:
-`export INFLUX_TOKEN=[TOKEN]`{{copy}}
-
----
-
-grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 1
---> erster Token
-
-grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 2
---> letzter Token
-
-Token hat 86 Zeichen + 2\* ==

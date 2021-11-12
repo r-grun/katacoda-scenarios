@@ -6,18 +6,18 @@
 
 [3] Date and Time on the Internet: Timestamps, 3339, IETF, Jul. 2002. [Online]. Verfügbar unter: https://datatracker.ietf.org/doc/html/rfc3339
 
-[X] InfluxData, Flux Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/flux/v0.x/ (Zugriff am: 12. November 2021).
+[4] InfluxData, Flux Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/flux/v0.x/ (Zugriff am: 12. November 2021).
 
-[4] InfluxData, InfluxDB. [Online]. Verfügbar unter: https://www.influxdata.com/products/influxdb/ (Zugriff am: 11. November 2021).
+[5] InfluxData, InfluxDB. [Online]. Verfügbar unter: https://www.influxdata.com/products/influxdb/ (Zugriff am: 11. November 2021).
 
-[5] InfluxData, InfluxDB Toolkit. [Online]. Verfügbar unter: https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png (Zugriff am: 11. November 2021).
+[6] InfluxData, InfluxDB Toolkit. [Online]. Verfügbar unter: https://www.influxdata.com/wp-content/uploads/APM-Diagram-2.png (Zugriff am: 11. November 2021).
 
-[6] InfluxData, Line protocol: InfluxDB OSS 2.1 Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/influxdb/v2.1/reference/syntax/line-protocol/ (Zugriff am: 12. November 2021).
+[7] InfluxData, Line protocol: InfluxDB OSS 2.1 Documentation. [Online]. Verfügbar unter: https://docs.influxdata.com/influxdb/v2.1/reference/syntax/line-protocol/ (Zugriff am: 12. November 2021).
 
-[7] S. N. Z. Naqvi und S. Yfantidou, „Time Series Databases and InfluxDB“, Universite libre de Bruxelles, Brüssel, 2017. [Online]. Verfügbar unter: https://cs.ulb.ac.be/public/_media/teaching/influxdb_2017.pdf.
+[8] S. N. Z. Naqvi und S. Yfantidou, „Time Series Databases and InfluxDB“, Universite libre de Bruxelles, Brüssel, 2017. [Online]. Verfügbar unter: https://cs.ulb.ac.be/public/_media/teaching/influxdb_2017.pdf.
 
-[8] M. Nasar und M. Abu Kausar, „Suitability Of InfluxDB Database For IoT Applications“, IJITEE, Nr. 10, S. 1850–1857, 2019, J92250881019, doi: 10.35940/ijitee.J9225.0881019.
+[9] M. Nasar und M. Abu Kausar, „Suitability Of InfluxDB Database For IoT Applications“, IJITEE, Nr. 10, S. 1850–1857, 2019, J92250881019, doi: 10.35940/ijitee.J9225.0881019.
 
-[9] senseBox, openSenseMap: Airrohr-1769933. [Online]. Verfügbar unter: https://opensensemap.org/explore/5a99c5a8bc2d410019cb8261 (Zugriff am: 10. November 2021).
+[10] senseBox, openSenseMap: Airrohr-1769933. [Online]. Verfügbar unter: https://opensensemap.org/explore/5a99c5a8bc2d410019cb8261 (Zugriff am: 10. November 2021).
 
-[10] solid IT gmbh, DB-Engines Ranking von Time Series DBMS. [Online]. Verfügbar unter: https://db-engines.com/de/ranking/time+series+dbms (Zugriff am: 7. November 2021).
+[11] solid IT gmbh, DB-Engines Ranking von Time Series DBMS. [Online]. Verfügbar unter: https://db-engines.com/de/ranking/time+series+dbms (Zugriff am: 7. November 2021).

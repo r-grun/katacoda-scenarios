@@ -1,12 +1,12 @@
 Da die Datenbank nun mit Daten befüllt wurde, können Abfragen auf diese getätigt werden.
-InfluxDB bietet hier für zwei Möglichkeiten in der Abfragesprache: Flux und InfluxQL [4].
+InfluxDB bietet hier für zwei Möglichkeiten in der Abfragesprache: Flux und InfluxQL [5].
 InfluxQL ist ähnlich zu SQL, in diesem Szenario wird jedoch nur auf [Flux](https://docs.influxdata.com/flux/v0.x/) eingegangen.
 
 Flux ist eine Open-Source funktionale Skriptsprache.
 Sie ist speziell dafür designt, um Daten abzufragen, sie zu analysieren und Aktionen auf den Daten auszuführen.
-Damit kann mit Daten von zeitreihenbasierten Datenbanken (wie InfluxDB), relationale Datenbanken (wie MySQL und PostgreSQL) sowie CSV-Dateien gearbeitet werden [X].
+Damit kann mit Daten von zeitreihenbasierten Datenbanken (wie InfluxDB), relationale Datenbanken (wie MySQL und PostgreSQL) sowie CSV-Dateien gearbeitet werden [4].
 
-Abfragen mit Flux sind nach folgendem Schema aufgebaut [X]:
+Abfragen mit Flux sind nach folgendem Schema aufgebaut [4]:
 
 1. Daten von einer Quelle abfragen
 2. Daten nach Zeit oder Spalten filtern

@@ -52,4 +52,4 @@ _Tabelle 2: Gegenüberstellung SQL-DB zu InfluxDB [2]_
     Eine Serie stellt eine Sammlung von Daten mit gemeinsamem Verweilzeitskriterium, Messung und Tag-Menge dar.
     Der Schlüssel einer Serie ist der Messwert, die Tag-Menge und der Feld-Schlüssel.
 
-[2, 7]
+[2, 8]
