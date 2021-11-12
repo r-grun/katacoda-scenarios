@@ -51,3 +51,11 @@ Es wird anschließend ein neuer API-Token erstellt:
 
 Der neue Token muss nun in die Umgebungsvariable geschrieben werden:
 `export INFLUX_TOKEN=[TOKEN]`{{copy}}
+
+---
+
+grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 1
+--> erster Token
+
+grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 2
+--> letzter Token
