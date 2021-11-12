@@ -59,3 +59,5 @@ grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 1
 
 grep -G -o -e [a-zA-Z0-9]\*== tokens.txt | head -n 2
 --> letzter Token
+
+Token hat 86 Zeichen + 2\* ==
