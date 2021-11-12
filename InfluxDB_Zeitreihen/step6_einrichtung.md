@@ -7,7 +7,7 @@ Dieses Szenario beschränkt sich jedoch auf die Benutzung der Kommandozeile.
 
 Mit dem folgenden Befehl kann nun eine InfluxDB eingerichtet werden:
 
-`influx setup --org dwh-org --bucket dwh-bucket --username dwh-user --password dwhPassword123 --force && export INFLUX_ORG=dwh-org`{{execute}}
+`influx setup --org dwh-org --bucket dwh-bucket --username dwh-user --password dwhPassword123 --force && export INFLUX_ORG=dwh-org && export INFLUX_BUCKET_NAME=dwh-bucket`{{execute}}
 
 Dabei werden verschiedene Eigenschaften gesetzt, wie in Tabelle 3 zu sehen.
 
