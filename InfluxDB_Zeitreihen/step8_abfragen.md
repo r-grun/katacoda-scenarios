@@ -29,7 +29,21 @@ Damit nicht alle über 17.000 Messwerte zurückgegeben werden, wird die Ausgabe 
 
 `influx query 'from(bucket: "dwh-bucket") |> range(start:1633039200) |> limit(n:20)'`{{execute}}
 
-In der Kopfzeile der Abfrage werden die Bezeichnungen der Spalten sowie deren Datentyp angeegben
+In der Kopfzeile der Abfrage werden die Bezeichnungen der Spalten sowie deren Datentyp angegeben.
+
+<br>
 
 In Schritt 7 wurden Daten aus Feinstaubmessungen in die Datenbank eingefügt.
 Nun werden auf diese Daten Beispielabfragen ausgeführt.
+
+---
+
+Die folgende Abfrage soll den Durchschnitt aller Messwerte am 10.10.2021 ausgeben.
+
+`influx query 'from(bucket:"dwh-bucket") |> range(start:1633816800, stop:1633903200) |> mean(column:"_value")'`{{execute}}
+
+---
+
+Es sollen die täglichen Maxima der Messwerte ausgegeben werden.
+
+`influx query 'from(bucket:"dwh-bucket") |> range(start:1633039200) |> window(every:1d) |> max(column:"_value")'`{{execute}}
