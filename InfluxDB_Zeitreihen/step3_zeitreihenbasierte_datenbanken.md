@@ -1,10 +1,10 @@
 Um mit den zeitreihenbasierten Daten umzugehen, werden zeitreihenbasierte Datenbanken (TSDB) eingesetzt.
 Die darin gespeicherten Daten sind oft Messwerte, die kontrolliert, reduziert und über einen Zeitraum indexiert werden.
-Dies können z.B. die Performance eines Systems, die Netzwerkperformance oder Sensorinformationen sein [7].
+Dies können z.B. die Performance eines Systems, die Netzwerkperformance oder Sensorinformationen sein [8].
 
 Um mit solchen Werten umzugehen, sind TSDBs für Zwitreihen optimiert.
 Sie sind speziell dafür designt, um Änderungen über einen Zeitraum festzuhalten.
-Diese können dann abgefragt und analysiert werden [6, 7].
+Diese können dann abgefragt und analysiert werden [7, 7].
 
 Zeitreihenbasierte Datenbanksysteme besitzen einige wichtige Eigenschaften.
 
@@ -23,4 +23,4 @@ Zeitreihenbasierte Datenbanksysteme besitzen einige wichtige Eigenschaften.
     Die Skalierbarkeit ist speziell auf den Zeitstempel der Daten fokussiert.
 -   Bedienbarkeit/Benutzbarkeit:<br>
     Um mit diesen speziellen Daten umzugehen, stehen besondere Funktionen und Operationen für häufig eingesetzte Zeitreihen-Analysen standardmäßig zur Verfügung.
-    Sie ermöglichen einen einfacheren Umgang mit den Daten und eine Optimierung bei den Abfragen [6].
+    Sie ermöglichen einen einfacheren Umgang mit den Daten und eine Optimierung bei den Abfragen [7].

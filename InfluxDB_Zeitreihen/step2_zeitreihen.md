@@ -1,12 +1,12 @@
 Wie im vorhergehenden Kapitel angedeutet, werden im IoT-Umfeld oft Daten mit Abhängigkeit zur Zeit verwaltet.
 Dabei handelt es sich um _Zeitreihen_.
 
-> "Zeitreihen sind geordnete Sequenzen von Variablenwerten in gleichbleibenden Zeitintervallen" [6].
+> "Zeitreihen sind geordnete Sequenzen von Variablenwerten in gleichbleibenden Zeitintervallen" [7].
 
 Die Daten mit Zeitstempel können dabei Log-Einträge, IoT-Geräte-Messungen wie die Temperatur jeder Stunde, Aktienpreise, etc. sein.
 
 Die Anordnung der Zeitreihen erfolgt in Zeitlinien.
-Wichtig ist die Reihenfolge der Daten, da eine Abhängigkeit zwischen Messwert und Zeitpunkt meist essentiell ist [6].
+Wichtig ist die Reihenfolge der Daten, da eine Abhängigkeit zwischen Messwert und Zeitpunkt meist essentiell ist [7].
 Aus diesem Grund besizuen die Daten die Zeitstempel.
 Damit können Änderungen der Daten einfach erkannt werden.
 
@@ -31,4 +31,4 @@ Besonders in der Aktienmarktanalyse wird dies eingesetzt.
 Hier kann der Kurs einer Aktie durch eine andere beeinflusst werden.<br>
 Eine dritte Möglichkeit zum Einsatz von zeitreihenbasierten Daten sind Zeitreihenvorhersagen.
 Aus historischen Werten werden Verhaltensmuster erkannt und damit zukünftige Werte abgeschätzt.
-Dies findet z.B. in der Wettervorhersage oder Erdbebenvorhersage Anwendung [6].
+Dies findet z.B. in der Wettervorhersage oder Erdbebenvorhersage Anwendung [7].
