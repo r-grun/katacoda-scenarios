@@ -1,3 +1,14 @@
+## Ausblick
+
+Dieses Katacoda-Szenario zeigte, was zeitreihenbasierte Daten sind und wie mit ihnen in einer zeitreihenbasierten Datenbank (InfluxDB) umgegangen werden kann.
+So kann das Datenbanksystem in eine IoT-Infrastruktur eingebaut werden.
+Das Datenmanagement kann über InfluxDB erfolgen.<br>
+Neben der Steuerung per Kommandozeile, bietet InfluxDB auch eine Weboberfläche.
+Mit ihr können ebenfalls Daten importiert und abgefragt werden.
+Zusätzlich können Dashboards mit Diagrammen zur Übersicht über z.B. Messwerte erstellt werden.<br>
+Durch die Integration von vielen weiteren Datenquellen in InfluxDB ist es einfach, Daten zu importieren.
+So können bspw. Wetterdaten direkt von OpenWeatherMap oder per HTTP-Anfrage an InfluxDB gesendet werden.
+
 ## Quellen
 
 [1] A. Buckenhofer, „Vorlesungsskript Data Warehouse: Data Engineering“, Stuttgart, 11. Nov. 2021.
