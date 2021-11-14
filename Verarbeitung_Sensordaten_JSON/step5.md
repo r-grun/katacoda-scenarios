@@ -16,4 +16,4 @@ Folgende Attribute sind in einem Objekt enthalten:
 | `NH3`    | Konzentration an Ammoniak (NH<sub>3</sub>) in μg/m<sup>3</sup>       |
 
 Um mit PostgreSQL zu arbeiten, wurde bereits im Hintergrund ein Docker-Container mit PostgreSQL gestartet.
-Die Kommandozeile befindet sich im Container.
+Die Kommandozeile befindet sich in PostgreSQL.
