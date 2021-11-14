@@ -1,8 +1,15 @@
-# Heading for Step 1
-
-This is some text.
-
-Here's a single line of runnable code:
-
-`printf 'Hello, world!\n\n'`{{execute}}
-
+Der Großteil der Computeranwendungen benötigt Daten.
+Ohne diese funktionieren die Anwendungen nicht.
+Heute basieren viele Anwendungen im Business-Bereich auf Big-Data.
+Hier besitzen die Daten eine essenzielle Rolle.<br>
+Auch im IoT-Umfeld sind Daten die Grundvoraussetzung.
+Sie werden häufig von Sensoren geliefert und durch andere Geräte verarbeitet.
+Dafür müssen sie in einem passenden Format zur Datenübertragung versendet werden.
+Dies kann XML, YAML oder auch JSON sein.
+Besonders letzteres überzeugt u.a. durch seine Einfachkeit und Kompaktheit.<br>
+Meistens werden die Daten dann auch in einer Datenbank gespeichert.
+JSON-Daten können hier direkt in dokumentenbasierte Datenbanken geschrieben werden.
+Die beliebtesten DBs sind jedoch relationale Datenbanksysteme.
+Auch diese besitzen meistens eine Unterstützung von JSON als Datentyp.
+Eine weitere Möglihckeit ist das Umwandeln und anschließende Speichern der JSON-Daten in Tabellen.
+Dies ist sehr hilfreich für die Arbeit mit relationalen Datenbanken.
