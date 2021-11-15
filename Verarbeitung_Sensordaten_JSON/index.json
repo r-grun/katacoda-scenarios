@@ -2,7 +2,7 @@
 	"title": "Verarbeitung von Sensordaten (JSON)",
 	"description": "Dieses Szenario zeigt, was JSON-Daten sind, wo diese vorkommen und, wie sie in eine relationale Datenbank (PostgreSQL) geschrieben werden können.",
 	"difficulty": "Amateur",
-	"time": "3 minutes",
+	"time": "15 Minuten",
 	"details": {
 		"steps": [
 			{

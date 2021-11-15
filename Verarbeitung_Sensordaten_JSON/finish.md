@@ -1,6 +1,6 @@
 ## Ausblick
 
-In diesem Szenario wurde gezeigt, was JSON-Daten sind, wo diese vorkommen und anhand eines Beispiels, wie sie in eine relationale Tabelle geschrieben werden können.
+In diesem Szenario wurde gezeigt, was JSON-Daten sind, wo diese eingesetzt werden und anhand eines Beispiels, wie sie in eine relationale Tabelle geschrieben werden können.
 Es wurde deutlich, dass es keinen Befehl gibt, der die JSON-Objekte direkt in ein relationales Modell umwandelt.
 Je nach Komplexität und Verschachtelung der JSON-Objekte ist eine Umwandlung kompliziert.<br>
 Nach dem Einfügen der Daten aus der JSON-Datei kann nun mit den relationalen Daten weiter gearbeitet werden.

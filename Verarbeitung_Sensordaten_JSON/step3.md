@@ -1,5 +1,5 @@
 Relationale Datenbanksysteme sind dafür konzipiert, sehr gut mit vielen Daten und vielen Beziehungen umzugehen.
-Die meisten relationalen Datenbanken unterstützen dabei eine Speicherung von XML-formatierte Date als nativen Typ.
+Die meisten relationalen Datenbanken unterstützen dabei eine Speicherung von XML-formatierten Daten als nativen Typ.
 Dabei muss jedoch das Schema immer mitgespeichert werden.
 Zusätzlich besitzen XML-Daten einen großen Überhang an zusätzlichen Informationen aufgrund der XML-Tags [6].
 
@@ -12,21 +12,21 @@ JSON in relationalen Datenbanken macht es einfach, dynamische Datenbankschemata 
 Das Speichern von Daten im JSON-Format bringt einige Vorteile mit sich:
 
 -   Speichern von halbstrukturierten Daten<br>
-    Relationale Datenbanksysteme beinhaltet strukturierte Daten.
-    Daten im JOSn-Format liegen sowohl strukturiert als auch unstruktiruert vor.
+    Relationale Datenbanksysteme beinhalten strukturierte Daten.
+    Daten im JSON-Format liegen sowohl strukturiert als auch unstruktiruert vor.
     Eine JSON-Unterstützung verbindet das relationale System sowohl mit strukturierten als auch unstrukturierten Daten [5].
 -   Komplizierte Verknüpungen und Beziehungen vermeiden<br>
-    Oft müssen Informationen zu einem Objekt nur unmittelbar für dieses Objekt zur verfügung stehen.
+    Oft müssen Informationen zu einem Objekt nur unmittelbar diesem Objekt zur Verfügung stehen.
     Eine denormalisierte Speicherung mit JSON macht es möglich, die Daten direkt beim zugehörigen Objekt zu speichern.
-    Die Daten können dann schnell erhalten werden [3].
+    Die Daten können dann schnell abgefragt werden [3].
 -   Direktes Speichern<br>
-    Werden Daten von einem weiteren Dienst, z.B. per REST-Schnittstelle, abgefragt, liegen sie oft im JOSN-Format vor.
+    Werden Daten von einem weiteren Dienst, z.B. per REST-Schnittstelle, abgefragt, liegen sie oft im JSON-Format vor.
     Sind sie in verschachtelten Listen, so ist es aufewndig, diese zu normalisieren.
     Eine direkte Speicherung als JSON-Objekt umgeht diesen Mehraufwand [3].
 -   Daten per Schnittstelle zurückgeben<br>
     Wie das Abfragen per API werden Daten auch als JSON versendet.
     Liegen die Daten nicht als solches vor, müssen sie zur Laufzeit erst zusammengebaut werden.
-    Das Verwalten von JSON-Objekten in der DB macht das Erstellen eines JSON-Objekts unnötig [3].
+    Das Verwalten von JSON-Objekten in der DB macht das Erstellen eines JSON-Objekts in der Anwendung unnötig [3].
 
 ## Speicherformen
 

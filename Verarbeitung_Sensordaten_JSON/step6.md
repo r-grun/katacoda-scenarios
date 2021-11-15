@@ -1,7 +1,7 @@
-Um mit dem Einfügen der Daten in die Datenbank zu beginnen, muss zunächst eine Datenbank erstellt werden.
+Um mit dem Einfügen der Daten in die Tabelle zu beginnen, muss zunächst eine Tabelle erstellt werden.
 Hierbei werden dieselben Attribute gewählt wie die in den JSON-Objekten.
 
-<code class="language-sql">
+<code>
 CREATE TABLE pollution_data(<br>
 	&nbsp;id SERIAL PRIMARY KEY,<br>
 	&nbsp;aqi int,<br>
@@ -23,9 +23,9 @@ Er kann hier ausgeführt werden:
 `create table pollution_data( id serial primary key, aqi int, co decimal(8,2), no decimal(8,2), no2 decimal(8,2), o3 decimal(8,2), so2 decimal(8,2), pm2_5 decimal(8,2), pm10 decimal(8,2), nh3 decimal(8,2), dt timestamp );`{{execute}}
 
 Damit die JSON-Daten importiert und verarbeitet werden können, müssen sie zunächst in eine Tabelle geschrieben werden.
-Hierfür wird die Tabelle `pollution_import` mit dem Attribut `unlogged` erstellt.
+Hierfür wird die Tabelle `pollution_import` mit dem Parameter `unlogged` erstellt.
 Der Vorteil daran ist, dass diese Tabellen schneller als normale Tabellen bei Schreiboperationen sind, jedoch gehen sie bei einem Crash der Datenbank verloren.
-Da diese Tabelle jedoch nur temporär verwendet wird, ist dieser Nachteil akzeptabel.<br>
+Da diese Tabelle jedoch nur temporär verwendet wird, ist dieser Nachteil akzeptabel [7].<br>
 In der Tabelle soll der Inhalt der JSON-Datei als JSONB-Objekt vorliegen.<br>
 `CREATE UNLOGGED TABLE pollution_import (doc jsonb);`{{execute}}
 
@@ -33,7 +33,7 @@ In der Tabelle soll der Inhalt der JSON-Datei als JSONB-Objekt vorliegen.<br>
 
 Nun können die Daten aus der JOSN-Datei in die Tabelle `pollution_import` kopiert werden.
 Die JSON-Datei befindet sich bereits im Docker-Container der Datenbank.
-Per `COPY`-Befehl werden die Daten aus der Datei kopiert.<br>
+Per `COPY`-Befehl werden die Daten aus der Datei in die Tabelle kopiert.<br>
 `\COPY pollution_import FROM './pollution_data.json';`{{execute}}
 
 <br>
@@ -45,11 +45,11 @@ In der Tabelle `pollution_import` steht nun der gesamte Inhalt der JSON-Datei in
 Durch das Datenformat `JSONB` können nun Operationen auf das große JSON-Objekt durchgeführt werden.
 Ein wichtiger Operator für den Zugriff auf Attribute der JSON-Objekte ist der `->` Operator.
 Er liefert die Werte der angegebenen Schlüssel zurück.
-Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten JSON-Array zurückgegeben [7].<br>
+Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten JSON-Array zurückgegeben [8].<br>
 Folgende Abfrage liefert die `aqi`-Attribute aller JSON-Objekte zurück.<br>
 `SELECT (jsonb_array_elements((doc -> 'list')::jsonb)->'main'->'aqi')::int AS aqi FROM pollution_import;`{{execute}}
 
-Mit `\q` kann das Ergebnis der Abfrage wieder verlassen werden.
+Mit `\q` kann die Ergebnisanzeige der Abfrage wieder verlassen werden.
 
 <br>
 
@@ -86,6 +86,6 @@ Damit kann nun wie mit einer normalen relationalen Tabelle gearbeitet werden.
 
 `SELECT * FROM pollution_data;`{{execute}}
 
-Auch hier kann die das Ergebnis der Abfrage mit `\q` verlassen werden.
+Auch hier kann die Ergebnisanzeige der Abfrage mit `\q` verlassen werden.
 
 Am Zeitstempel ist zu erkennen, dass vom 1.10.2021 bis 1.11.2021 jede Stunde eine Messung in die Datenbank geschrieben wurde.

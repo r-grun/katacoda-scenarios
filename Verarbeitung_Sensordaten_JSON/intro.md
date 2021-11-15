@@ -5,22 +5,21 @@
 ## Abstract
 
 Ein wichtiger Teil von Computeranwendungen sind Daten.
-Sie sind für eine korrekte Funktionsweise sehr wichtig.
-Um die Daten zu versenden, gibt es verschiedene Formate.
-Ein beliebtes Format is das JSON-Format.
+Ohne diese können die Programme nicht arbeiten.
+Um Daten zu versenden, gibt es verschiedene Formate.
+Eines der beliebstesten ist das JSON-Format.
 Es ist leichtgewichtig und für Menschen einfach lesbar.
 Damit Daten gespeichert werden können, werden sie in Datenbanken geschrieben.
-Da Daten oft im JSON-Format vorkommen, müssen diese auch in Datenbanken gespeichert werden können.
-Dieses Szenario zeigt, was JSON-Daten sind, wie diese vorkommen und wie diese in einer relationalen Datenbank gespeichert werden können.
+Da sie oft im JSON-Format vorkommen, müssen diese auch in Datenbanken gespeichert werden können.
+Dieses Szenario zeigt, was JSON-Daten sind, wie diese eingesetzt werden und wie sie in einer relationalen Datenbank gespeichert werden können.
 Anhand eines Beispiels wird der Inhalt einer JSON-Datei umgewandelt und in einer PostgreSQL Datenbank gespeichert.
 
 ## Lernziele
 
-Nach diesem Szenario sind Sie in der Lage, JSON-Daten umzuwandeln und in die relationale Datenbank PostgreSQL zu speichern.
+Nach diesem Szenario sind Sie in der Lage, JSON-Daten umzuwandeln und in die relationale Datenbank _PostgreSQL_ zu speichern.
 
 -   Einführung in JSON
--   Konvertierung von JSON
--   Speichern der umgewandelten Daten
+-   Einlesen, umwandeln und Speichern von JOSN-Daten in eine relationale Tabelle
 
 ## Vorkenntnisse
 

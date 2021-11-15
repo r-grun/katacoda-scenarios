@@ -9,7 +9,7 @@ Folgende Attribute sind in einem Objekt enthalten:
 | `aqi`    | Luftqualitätsindex                                                     |
 | `CO`     | Konzentration an Kohlenstoffmonoxid (CO) in μg/m<sup>3</sup>           |
 | `NO`     | Konzentration an Stickstoffmonoxid (NO) in μg/m<sup>3</sup>            |
-| `NO2`    | Konzentration an Stickstoffsioxid (NO<sub>2</sub>) in μg/m<sup>3</sup> |
+| `NO2`    | Konzentration an Stickstoffdioxid (NO<sub>2</sub>) in μg/m<sup>3</sup> |
 | `O3`     | Konzentration an Ozon (O<sub>3</sub>) in μg/m<sup>3</sup>              |
 | `SO2`    | Konzentration an Schwefeldioxid (SO<sub>2</sub>) in μg/m<sup>3</sup>   |
 | `PM2_5`  | Konzentration von Feinstaub (PM<sub>2,5</sub>) in μg/m<sup>3</sup>     |
