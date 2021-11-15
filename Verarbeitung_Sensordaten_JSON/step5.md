@@ -19,4 +19,4 @@ Folgende Attribute sind in einem Objekt enthalten:
 Um mit PostgreSQL zu arbeiten, wurde bereits im Hintergrund ein Docker-Container mit PostgreSQL in Version 14 gestartet.
 Die Kommandozeile befindet sich im Container.
 
-Mit `psql -U postgres` kann die Kommandozeilenschnittstelle von PostgreSQL aufgerufen werden.
+Mit `psql -U postgres`{{execute}} kann die Kommandozeilenschnittstelle von PostgreSQL aufgerufen werden.
