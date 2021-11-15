@@ -22,5 +22,5 @@ Dieses Repository beinhaltet zwei verschiedene Katacoda Scenarios:
 
 ## 2. Verarbeitung von Sensordaten (JSON)
 
--   [Katacoda](https://www.katacoda.com/r-grun/scenarios/verarbeitung_sensordaten_json)s
+-   [Katacoda](https://www.katacoda.com/r-grun/scenarios/verarbeitung_sensordaten_json)
 -   [Code](https://github.com/r-grun/katacoda-scenarios/tree/main/Verarbeitung_Sensordaten_JSON)
