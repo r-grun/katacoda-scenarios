@@ -38,8 +38,7 @@ Per `COPY`-Befehl werden die Daten aus der Datei kopiert.<br>
 
 <br>
 
-In der Tabelle `pollution_import` steht nun der gesamte Inhalt der JSON-Datei in einer Zeile im Format `JSONB`.<br
-`SELECT * FROM pollution_import;`{{execute}}
+In der Tabelle `pollution_import` steht nun der gesamte Inhalt der JSON-Datei in einer Zeile im Format `JSONB`.<br>
 
 <br>
 
@@ -49,6 +48,8 @@ Er liefert die Werte der angegebenen Schlüssel zurück.
 Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten JSON-Array zurückgegeben [PostgresTable].<br>
 Folgende Abfrage liefert die `aqi`-Attribute aller JSON-Objekte zurück.<br>
 `SELECT (jsonb_array_elements((doc -> 'list')::jsonb)->'main'->'aqi')::int AS aqi FROM pollution_import;`{{execute}}
+
+Mit `\q`{{execute}} kann das Ergebnis der Abfrage wieder verlassen werden.
 
 <br>
 
@@ -84,3 +85,5 @@ Die Tabelle `pollution_data` enthält nun die JSON-Objekte in den Zeilen einer r
 Damit kann nun wie mit einer normalen relationalen Tabelle gearbeitet werden.
 
 `SELECT * FROM pollution_data;`{{execute}}
+
+Auch hier kann die das Ergebnis der Abfrage mit `\q`{{execute}} verlassen werden.
