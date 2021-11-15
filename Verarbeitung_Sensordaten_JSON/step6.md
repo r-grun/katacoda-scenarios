@@ -1,7 +1,6 @@
 Um mit dem Einfügen der Daten in die Datenbank zu beginnen, muss zunächst eine Datenbank erstellt werden.
 Hierbei werden dieselben Attribute gewählt wie die in den JSON-Objekten.
 
-<pre>
 <code class="language-sql">
 CREATE TABLE pollution_data(<br>
 	&nbsp;id SERIAL PRIMARY KEY,<br>
@@ -17,7 +16,8 @@ CREATE TABLE pollution_data(<br>
 	&nbsp;dt timestamp<br>
 );
 </code>
-</pre>{{execute}}
+
+`create table pollution_data( id serial primary key, aqi int, co decimal(8,2), no decimal(8,2), no2 decimal(8,2), o3 decimal(8,2), so2 decimal(8,2), pm2_5 decimal(8,2), pm10 decimal(8,2), nh3 decimal(8,2), dt timestamp );`{{execute}}
 
 Damit die JSON-Daten importiert und verarbeitet werden können, müssen sie zunächst in eine Tabelle geschrieben werden.
 Hierfür wird die Tabelle `pollution_import` mit dem Attribut `unlogged` erstellt.
