@@ -17,6 +17,9 @@ CREATE TABLE pollution_data(<br>
 );
 </code>
 
+Zur besseren Lesbarkeit ist der Befehl oben formatiert dargestellt.
+Er kann hier ausgeführt werden:
+
 `create table pollution_data( id serial primary key, aqi int, co decimal(8,2), no decimal(8,2), no2 decimal(8,2), o3 decimal(8,2), so2 decimal(8,2), pm2_5 decimal(8,2), pm10 decimal(8,2), nh3 decimal(8,2), dt timestamp );`{{execute}}
 
 Damit die JSON-Daten importiert und verarbeitet werden können, müssen sie zunächst in eine Tabelle geschrieben werden.
@@ -31,7 +34,7 @@ In der Tabelle soll der Inhalt der JSON-Datei als JSONB-Objekt vorliegen.<br>
 Nun können die Daten aus der JOSN-Datei in die Tabelle `pollution_import` kopiert werden.
 Die JSON-Datei befindet sich bereits im Docker-Container der Datenbank.
 Per `COPY`-Befehl werden die Daten aus der Datei kopiert.<br>
-`COPY pollution_import FROM 'E:\Vorlesungen\katacoda-scenarios\Verarbeitung_Sensordaten_JSON\assets\pollution_data.json';`{{execute}}
+`\COPY pollution_import FROM './pollution_data.json';`{{execute}}
 
 <br>
 
@@ -71,6 +74,11 @@ INSERT INTO pollution_data (aqi, co, no, no2, o3, so2, pm2_5, pm10, nh3, dt)<br>
     &nbsp;&nbsp;to_timestamp((t1.list->>'dt')::int)::timestamp<br>
     &nbsp;FROM t1;<br>
 </code>
+
+Zur besseren Lesbarkeit ist der Befehl oben formatiert dargestellt.
+Er kann hier ausgeführt werden:
+
+`insert into pollution_data (aqi, co, no, no2, o3, so2, pm2_5, pm10, nh3, dt) with t1 as ( select jsonb_array_elements((doc -> 'list')::jsonb) as list from pollution_import ) select (t1.list->'main'->'aqi')::int, (t1.list->'components'->'co')::decimal(8,2), (t1.list->'components'->'no')::decimal(8,2), (t1.list->'components'->'no2')::decimal(8,2), (t1.list->'components'->'o3')::decimal(8,2), (t1.list->'components'->'so2')::decimal(8,2), (t1.list->'components'->'pm2_5')::decimal(8,2), (t1.list->'components'->'pm10')::decimal(8,2), (t1.list->'components'->'nh3')::decimal(8,2), to_timestamp((t1.list->>'dt')::int)::timestamp from t1;`{{execute}}
 
 Die Tabelle `pollution_data` enthält nun die JSON-Objekte in den Zeilen einer relationalen Tabelle.
 Damit kann nun wie mit einer normalen relationalen Tabelle gearbeitet werden.
