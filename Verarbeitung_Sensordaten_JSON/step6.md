@@ -49,7 +49,7 @@ Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten J
 Folgende Abfrage liefert die `aqi`-Attribute aller JSON-Objekte zurück.<br>
 `SELECT (jsonb_array_elements((doc -> 'list')::jsonb)->'main'->'aqi')::int AS aqi FROM pollution_import;`{{execute}}
 
-Mit `\q`{{execute}} kann das Ergebnis der Abfrage wieder verlassen werden.
+Mit `\q` kann das Ergebnis der Abfrage wieder verlassen werden.
 
 <br>
 
@@ -86,4 +86,6 @@ Damit kann nun wie mit einer normalen relationalen Tabelle gearbeitet werden.
 
 `SELECT * FROM pollution_data;`{{execute}}
 
-Auch hier kann die das Ergebnis der Abfrage mit `\q`{{execute}} verlassen werden.
+Auch hier kann die das Ergebnis der Abfrage mit `\q` verlassen werden.
+
+Am Zeitstempel ist zu erkennen, dass vom 1.10.2021 bis 1.11.2021 jede Stunde eine Messung in die Datenbank geschrieben wurde.
