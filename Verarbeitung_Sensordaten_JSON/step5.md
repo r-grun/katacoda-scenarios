@@ -1,6 +1,6 @@
 Im Folgenden wird mit Testdaten gearbeitet.
 Dabei handelt es sich um Sensordaten zur Luftqualität in Stuttgart im Zeitraum vom 1.10.2021 bis 1.11.2021.
-Die Daten wurden über die [AirPollutionAPI](https://openweathermap.org/api/air-pollution) von OpenWeatherMap abgefragt [OpenWeather].
+Die Daten wurden über die [AirPollutionAPI](https://openweathermap.org/api/air-pollution) von OpenWeatherMap abgefragt [4].
 
 Folgende Attribute sind in einem Objekt enthalten:
 

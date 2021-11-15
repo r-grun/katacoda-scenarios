@@ -45,7 +45,7 @@ In der Tabelle `pollution_import` steht nun der gesamte Inhalt der JSON-Datei in
 Durch das Datenformat `JSONB` können nun Operationen auf das große JSON-Objekt durchgeführt werden.
 Ein wichtiger Operator für den Zugriff auf Attribute der JSON-Objekte ist der `->` Operator.
 Er liefert die Werte der angegebenen Schlüssel zurück.
-Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten JSON-Array zurückgegeben [PostgresTable].<br>
+Per Funktion `jsonb_array_elements()` werden die Werte aus dem übergeordneten JSON-Array zurückgegeben [7].<br>
 Folgende Abfrage liefert die `aqi`-Attribute aller JSON-Objekte zurück.<br>
 `SELECT (jsonb_array_elements((doc -> 'list')::jsonb)->'main'->'aqi')::int AS aqi FROM pollution_import;`{{execute}}
 

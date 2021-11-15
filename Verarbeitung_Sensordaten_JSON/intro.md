@@ -4,7 +4,15 @@
 
 ## Abstract
 
-TODO: Schreiben
+Ein wichtiger Teil von Computeranwendungen sind Daten.
+Sie sind für eine korrekte Funktionsweise sehr wichtig.
+Um die Daten zu versenden, gibt es verschiedene Formate.
+Ein beliebtes Format is das JSON-Format.
+Es ist leichtgewichtig und für Menschen einfach lesbar.
+Damit Daten gespeichert werden können, werden sie in Datenbanken geschrieben.
+Da Daten oft im JSON-Format vorkommen, müssen diese auch in Datenbanken gespeichert werden können.
+Dieses Szenario zeigt, was JSON-Daten sind, wie diese vorkommen und wie diese in einer relationalen Datenbank gespeichert werden können.
+Anhand eines Beispiels wird der Inhalt einer JSON-Datei umgewandelt und in einer PostgreSQL Datenbank gespeichert.
 
 ## Lernziele
 

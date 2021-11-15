@@ -11,5 +11,5 @@ Meistens werden die Daten dann auch in einer Datenbank gespeichert.
 JSON-Daten können hier direkt in dokumentenbasierte Datenbanken geschrieben werden.
 Die beliebtesten DBs sind jedoch relationale Datenbanksysteme.
 Auch diese besitzen meistens eine Unterstützung von JSON als Datentyp.
-Eine weitere Möglihckeit ist das Umwandeln und anschließende Speichern der JSON-Daten in Tabellen.
+Eine weitere Möglichkeit ist das Umwandeln und anschließende Speichern der JSON-Daten in Tabellen.
 Dies ist sehr hilfreich für die Arbeit mit relationalen Datenbanken.

@@ -1,6 +1,6 @@
 Ein beliebtes Datenformat zur Serialisierung von Daten ist JSON (JavaScript Object Notation).
 Es wird verwendet, um Daten in slebigem Format auszutauschen, z.B. über das Netzwerk.
-Im Vergleich zu anderen Formaten, wie XML, ist es kompakter, für Menschen einfacher zu lesen/schreiben und wird von vielen Programmiersprachen unterstützt [Petkovic], [Piech], [Buckenhofer].
+Im Vergleich zu anderen Formaten, wie XML, ist es kompakter, für Menschen einfacher zu lesen/schreiben und wird von vielen Programmiersprachen unterstützt [5], [6], [2].
 
 ### Aufbau
 
@@ -9,9 +9,9 @@ Jedes Objekt beinhaltet eine Liste von Werten oder weiteren Objekten.
 Ein Objekt ist hierbei eine Liste von Bezeichnern und Wertepaaren.
 Listen werden mit eckigen Klammern (`[` und `]`) umschlossen und beinhalten kommagetrennte Werte.
 Ein Objekt ist umschlossen von geschwiften Klammern (`{` und `}`).
-Bezeichner- und Wertepaare werden in doppelten Anführungszeichen `"` notiert und per Doppelpunkt `:` voneinander getrennt [Petkovic].
+Bezeichner- und Wertepaare werden in doppelten Anführungszeichen `"` notiert und per Doppelpunkt `:` voneinander getrennt [5].
 
-Folgendes Beispiel, nach [Buckenhofer], stellt ein JSON-Objekt dar:
+Folgendes Beispiel, nach [2], stellt ein JSON-Objekt dar:
 
 <code> 
 {<br>
@@ -34,7 +34,7 @@ Das Beispiel stellt ein typisches JSON-Objekt eines Sensors dar mit verschiedene
 
 ### Einsatzzwecke
 
-Für das JSON Format gibt es einige Einsatzzwecke [Buckenhofer]:
+Für das JSON Format gibt es einige Einsatzzwecke [2]:
 
 -   Datenaustausch
     -   oft per RESTful API
